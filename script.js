@@ -14,12 +14,12 @@ const villas = [
   {
     id: 1,
     name: "Villa Gunung View",
-    mainImage: "https://raw.githubusercontent.com/villatawangmangu/villa/main/1-1.jpg",
+    mainImage: "https://raw.githubusercontent.com/villatawangmangu/v2/main/images/1-1.jpg",
     images: [
-      "https://raw.githubusercontent.com/villatawangmangu/villa/main/1-1.jpg",
-      "https://raw.githubusercontent.com/villatawangmangu/villa/main/1-1.jpg",
-      "https://raw.githubusercontent.com/villatawangmangu/villa/main/1-1.jpg",
-      "https://raw.githubusercontent.com/villatawangmangu/villa/main/1-1.jpg"
+      "https://raw.githubusercontent.com/villatawangmangu/v2/main/images/1-2.jpg",
+      "https://raw.githubusercontent.com/villatawangmangu/v2/main/images/1-3.jpg",
+      "https://raw.githubusercontent.com/villatawangmangu/v2/main/images/1-4.jpg",
+      "https://raw.githubusercontent.com/villatawangmangu/v2/main/images/1-5.jpg"
     ],
     weekdayPrice: "Rp 900.000",
     weekendPrice: "Rp 1.500.000",
