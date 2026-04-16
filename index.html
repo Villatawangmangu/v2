@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewa Villa Tawangmangu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>SEWA VILLA TAWANGMANGU</h1>
+            <p>Nikmati liburan nyaman bersama keluarga di villa-villa terbaik</p>
+            <a href="#villas" class="btn-primary">Lihat Villa</a>
+        </div>
+    </header>
+
+    <!-- Villa Grid -->
+    <section id="villas" class="villas-section">
+        <div class="container">
+            <h2 class="section-title">Pilihan Villa Tersedia</h2>
+            <div class="villa-grid" id="villaGrid">
+                <!-- Villa items will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Villa Detail Modal -->
+    <div id="villaModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Sewa Villa Tawangmangu. All rights reserved.</p>
+        
+        <div class="contact-info">
+            <!-- WhatsApp Link -->
+            <p>
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 0812-3456-7890
+                </a>
+            </p>
+            <p><i class="fas fa-envelope"></i> info@villatawangmangu.com</p>
+        </div>
+        
+        <!-- Social Media Icons (sesuai CSS Anda) -->
+        <div class="social-container">
+            <p>Follow kami:</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/username_anda" target="_blank" rel="noopener noreferrer" 
+                   class="social-icon ig" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com/username_anda" target="_blank" rel="noopener noreferrer" 
+                   class="social-icon fb" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://tiktok.com/@username_anda" target="_blank" rel="noopener noreferrer" 
+                   class="social-icon tt" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <!-- Opsional: Tombol WA juga di social -->
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" 
+                   class="social-icon wa" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
