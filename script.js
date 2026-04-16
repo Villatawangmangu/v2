@@ -1,6 +1,6 @@
 // ================= CONFIGURATION =================
 const CONFIG = {
-  waNumber: "6281234567890", // Ganti dengan nomor WhatsApp Anda
+  waNumber: "6281927625651", // Ganti dengan nomor WhatsApp Anda
   socialMedia: {
     instagram: "https://instagram.com/username_anda",
     tiktok: "https://tiktok.com/@username_anda",
